@@ -1,7 +1,7 @@
 # include <stdio.h>
 
 /**
- * main - prints the alphabeth in reverse
+ * main - prints the alphabets in reverse
  * Return: Always 0
  */
 int main(void)
@@ -11,7 +11,7 @@ int main(void)
 	for (le = 'z'; le >= 'a'; le--)
 		putchar(le);
 
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
